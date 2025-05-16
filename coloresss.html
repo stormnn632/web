@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#" onclick="mostrarSeccion('index')">Inicio</a>
+        <a href="#" onclick="mostrarSeccion('teoria')">Teoría del Color</a>
+        <a href="#" onclick="mostrarSeccion('psicologia')">Psicología del Color</a>
+        <a href="#" onclick="mostrarSeccion('modelos')">RGB, CMYK y HEX</a>
+    </nav>
+
+    <div class="container">
+        <section id="index" class="active">
+            <h1>Los Colores</h1>
+            <p>Bienvenido a esta página informativa sobre los colores y sus diferentes aspectos.</p>
+            <div class="gif-container">
+                <img src="https://usagif.com/wp-content/uploads/2021/4fh5wi/bienvnds-16.gif" alt="Animación">
+            </div>
+        </section>
+
+        <section id="teoria">
+            <h1>Teoría del Color</h1>
+            <p>Se conoce como teoría del color a un conjunto de reglas básicas que guían la mezcla, la interacción, las propiedades y la percepción de los colores.</p>
+            <p>Esta teoría es fundamental para diversas disciplinas, entre ellas, el diseño gráfico, la pintura, la fotografía, la imprenta y la producción audiovisual.</p>
+            <p>No existe una única teoría del color, sino un conjunto de aproximaciones al color y sus dinámicas. Muchas de ellas forman parte de la historia del arte y de la óptica (una rama de la física), y han sido desarrolladas por distintos científicos y artistas.</p>
+            <p>Los principios de la teoría del color son los atributos que definen a los colores y las reglas que se siguen para combinarlos. </p>
+            <h2>Atributos del color </h2>
+            <ul>
+                <p>Matiz: Es la cualidad que define el nombre del color, como rojo, verde o azul.</p>
+                <p>Saturación: Es la intensidad o pureza del color.</p>
+                <p>Luminosidad: Es cuán claro u oscuro es un color.</p>
+            </ul>
+            <div class="image-container">
+                <img src="https://concepto.de/wp-content/uploads/2019/07/teoria-del-color-e1563406653364.jpg" alt="Rueda de colores">
+            </div>
+        </section>
+
+        <section id="psicologia">
+            <h1>Psicología del Color</h1>
+            <p>Los colores pueden influir en nuestras emociones y percepciones.</p>
+            <p>La psicología del color es un campo de estudio que está dirigido a analizar cómo percibimos y nos comportamos ante distintos colores, así como las emociones que suscitan en nosotros dichos tonos.</p>
+            <p>¿Sabías que los colores de tu alrededor pueden estar influenciando tus emociones y tu estado mental? ¿Sabías que ciertas tonalidades pueden irritarte o, por el contrario, relajarte y calmarte? Pues debes saber que los colores que te rodean sí que pueden tener un efecto en ti.</p>
+            <p>Esta afirmación no es nueva. De hecho, muchas empresas diseñan sus logos teniendo en cuenta los colores que emplean, pues de esta manera envían un mensaje u otro al consumidor. Cuando se decora una tienda también se valora qué colores se emplean, pues es casi una necesidad que la gente sienta el deseo de comprar cuando está en el local. Pero no solo se utiliza la psicología del color para sacar un beneficio económico.</p>
+            <div class="image-container">
+                <img src="https://pymstatic.com/144496/conversions/teoria-color-wide_webp.webp" alt="Rueda de colores">
+            </div>
+            <p>En la arteterapia, el color se asocia a las emociones de la persona y es una manera de influenciar el estado físico y mental del paciente. Por ejemplo, los estudios han demostrado que el rojo aumenta el ritmo cardíaco, lo que, a su vez, provoca un aumento de adrenalina y hace que los individuos se sientan enérgicos y entusiasmados.</p>
+        </section>
+
+        <section id="modelos">
+            <h1>RGB, CMYK y HEX</h1>
+            <p>Estos son los principales modelos de color utilizados en diseño y tecnología.</p>
+            <h2>El modelo de color RGB</h2>
+            <div class="image-container">
+                <img src="https://arquimedes.matem.unam.mx/mati/actividades/actividad_modelo_de_color_RGB/img/RGB.png" alt="Rueda de colores">
+            </div>
+            <p>El modelo de color RGB debe su nombre a sus colores primarios: rojo, verde y azul (red, green, blue), a partir de los cuales se compone el resto. Es un sistema de color aditivo, es decir, que cada combinación de color añade luz hasta llegar al blanco, que combina todos los colores del espectro. Este sistema se emplea en dispositivos con pantalla, como televisores, monitores de computadora y proyectores de video, entre otros.</p>
+            <h2>El modelo de color CMYK</h2>
+            <div class="image-container">
+                <img src="https://concepto.de/wp-content/uploads/2024/08/cmy-472x451.png" alt="Rueda de colores">
+            </div>
+            <p>El modelo CMYK debe su nombrea sus colores primarios: cian, magenta, amarillo y negro (cyan, magenta, yellow, black, en inglés, donde el negro se designa con una K de key plate o placa maestra).</p>
+            <p>Este es un modelo sustractivo, que compone el color a partir de la absorción de luz, de modo que la mezcla de colores tiende al negro, que es la ausencia total de luz. Se usa para técnicas de impresión, ya que el papel no tiene las propiedades lumínicas de los monitores o proyectores. Es por esto que, al trabajar en programas digitales de diseño para impresión, debe hacerse la conversión de RGB a CMYK.</p>
+            <h2>El modelo de color HEX</h2>
+            <div class="image-container">
+                <img src="https://image-processor-storage.s3.us-west-2.amazonaws.com/uploads/3fd1eda6fa6407f8f9e244df0b5a914d/color-wheel-with-graduation-from-white-to-black.jpeg" alt="Rueda de colores">
+            </div>
+            <p>El modelo de color HEX es el básico en desarrollo web y es equivalente al RGB pero en formato de pares de valores para cada color primario. Es decir el color aquí tendría el formato #RRGGBB.</p>
+            <p>Sin embargo, la particularidad de este modelo de color – y de ahí su nombre – es que es hexadecimal, es decir relativo al número 16. Frente a la escala 0-255 del modelo RGB, en el modelo HEX cada valor puede tener una posición en una escala de 16 niveles. De 0 a 9 y a partir de ahí de A a F, o lo que es lo mismo, el mínimo es 0 y el máximo, que equivaldría a 16, es F (0123456789ABCDEF).</p>
+            <p>Finalmente, una utilidad a la hora de usar este modelo de color es que los colores que repiten par pueden escribirse con atajo. Por ejemplo el color blanco se puede escribir como fff y funcionará bien, incluso como ff. En el caso del rojo #ff0000 podríamos acortarlo como f00.</p>
+            
+            <footer>
+                &copy; 2025 Mi Sitio Web - Todos los derechos reservados
+            </footer>
+            
+        </section>
+    </div>
+
+    <script>
+        function mostrarSeccion(id) {
+            document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
